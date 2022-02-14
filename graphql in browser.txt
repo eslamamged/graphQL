@@ -1,0 +1,52 @@
+query{
+#   getMyPosts(token:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjBhNjlmNjA4NzA0YmM2MTYyZjliY2UiLCJpYXQiOjE2NDQ4NTEzNTR9.sG4wzg5Vwwq7fOrbyxjgUOkOrUZ3Ko1MXKw643Kv_DA"){
+#    content
+#     user {
+#       firstName
+#     }
+  
+#   }
+# 00000000000000000000
+# getAllPosts{
+#   user{
+#     firstName
+#   }
+# }
+# 0000000000000000000
+# getPostComments(postId: "620a8007a8b4ce1a1ff30e5a"){
+#        content
+#    }
+}
+
+
+
+
+
+
+
+# mutation{ 
+  # createUser(userData: { username: "taha",firstName: "tahaamged",lastName: "taha",age: 27,password: "123456789"
+  # }) {
+  #   age
+  # }
+  # 0000000000000000000000000000000000
+  # loginUser( username: "momen",password: "123456789"){
+  #   token
+  # }
+  # 0000000000000000000000000000000000
+   # postCreate(token:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjBhN2Y2ZGE4YjRjZTFhMWZmMzBlNGUiLCJpYXQiOjE2NDQ4NTUyNzN9.UvxmwaSLA0LlqY4vSuqYDb1368oi58jtL7mA_H-7Ok0",content:"momen amged create post")
+  # 00000000000000000000000
+  # postUpdate(token:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjBhN2Y2ZGE4YjRjZTFhMWZmMzBlNGUiLCJpYXQiOjE2NDQ4NTUyNzN9.UvxmwaSLA0LlqY4vSuqYDb1368oi58jtL7mA_H-7Ok0",content:"mohamed amged create post",postId:"620a72f3ec9fb718acaca5b2")
+  # {
+  #   content
+  #   user{
+  #     firstName
+  #     age
+  #   }
+  # }
+  # 000000000000000000000000000
+  # postDelete(token:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjBhN2Y2ZGE4YjRjZTFhMWZmMzBlNGUiLCJpYXQiOjE2NDQ4NTUyNzN9.UvxmwaSLA0LlqY4vSuqYDb1368oi58jtL7mA_H-7Ok0",postId:"620a72f3ec9fb718acaca5b2")
+  # 00000000000000000000000000000000000
+  # createComment(token:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjBhN2Y2ZGE4YjRjZTFhMWZmMzBlNGUiLCJpYXQiOjE2NDQ4NTc4ODF9.EM7N2G-c8Tylnagx56aXTEio6o86YtTvw2NR54iF4Qo",postId:"620a8007a8b4ce1a1ff30e5a",content:"this is a comment of my post")
+  
+# }
